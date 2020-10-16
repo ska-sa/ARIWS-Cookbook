@@ -49,7 +49,7 @@
    ```
 
    Functionality is illustrated in the notebook
-   [https://github.com/rubyvanrooyen/ARIWS-Cookbook/blob/main/casa/Inspect_and_flagging_calibrators.ipynb](https://github.com/rubyvanrooyen/ARIWS-Cookbook/blob/main/casa/Inspect_and_flagging_calibrators.ipynb)
+   [Inspect_and_flagging_calibrators.ipynb](https://github.com/rubyvanrooyen/ARIWS-Cookbook/blob/main/casa/Inspect_and_flagging_calibrators.ipynb)
 
 5. Standard antenna based calibration
    ```
