@@ -116,14 +116,9 @@
    field=<target>, coloraxis='corr', averagedata=True, avgbaseline=True, avgchannel='4096')
    ```
 
-6. Imaging is more efficient using `wsclean`, some CASA examples are presented in two notebooks    
-   [Calibrator imaging.ipynb](https://github.com/ska-sa/MeerKAT-Cookbook/blob/master/casa/Calibrator%20imaging.ipynb)    
-   [Imaging spectral line.ipynb](https://github.com/ska-sa/MeerKAT-Cookbook/blob/master/casa/Imaging%20spectral%20line.ipynb)
-
 
 **Summary**    
 The notebooks and CASA script provide an introduction to interacting with MeerKAT data.
 Processing of very large files are best done using pipelines such as [MeerKATHI](https://pypi.org/project/meerkathi/).
-The notebook recipes closely follow an example configuration input file (`config.yml`) for MeerKATHI pipeline implementation.
 
 -fin-
