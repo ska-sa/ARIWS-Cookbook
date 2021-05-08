@@ -14,7 +14,7 @@
    --iridium --inmarsat`
    ```
    Functionality is illustrated in the notebook
-   [L_band_RFI_frequency_flagging.ipynb](https://github.com/rubyvanrooyen/ARIWS-Cookbook/blob/main/casa/L_band_RFI_frequency_flagging.ipynb)
+   [L_band_RFI_frequency_flagging.ipynb](https://github.com/ska-sa/ARIWS-Cookbook/blob/main/2-Flagging_and_calibration/L_band_RFI_frequency_flagging.ipynb)
 
 4. Default flagging is followed by data inspection and manual flagging.
    Since the data files are very large, this generally requires some form of averaging or selection
@@ -49,7 +49,7 @@
    ```
 
    Functionality is illustrated in the notebook
-   [Inspect_and_flagging_calibrators.ipynb](https://github.com/rubyvanrooyen/ARIWS-Cookbook/blob/main/casa/Inspect_and_flagging_calibrators.ipynb)
+   [Inspect_and_flagging_calibrators.ipynb](https://github.com/ska-sa/ARIWS-Cookbook/blob/main/2-Flagging_and_calibration/Inspect_and_flagging_calibrators.ipynb)
 
 5. Standard antenna based calibration
    ```
@@ -65,7 +65,7 @@
    Use `run calibrating_mkat_lband.py -h` to view all available options
 
    Functionality is illustrated in the notebook
-   [Calibrating data.ipynb](https://github.com/ska-sa/MeerKAT-Cookbook/blob/master/casa/Calibrating%20data.ipynb)
+   [Basic_calibration_recipe.ipynb](https://github.com/ska-sa/ARIWS-Cookbook/blob/main/2-Flagging_and_calibration/Basic_calibration_recipe.ipynb)
 
    View calibration results in calibration tables.
    Note: for gain calibration tables, the targets to plot must be specified by either selecting
@@ -77,7 +77,7 @@
    Relevant images will be produced as PNG format in the working directory
 
    Functionality is illustrated in the notebook
-   [Verify calibrated data and calibrate target.ipynb](https://github.com/ska-sa/MeerKAT-Cookbook/blob/master/casa/Verify%20calibrated%20data%20and%20calibrate%20target.ipynb)
+   [Verify_calibration_results.ipynb](https://github.com/ska-sa/ARIWS-Cookbook/blob/main/2-Flagging_and_calibration/Verify_calibration_results.ipynb)
 
    View calibrated data for calibrators to highlight if further flagging is needed
    ```
